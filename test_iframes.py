@@ -32,4 +32,4 @@ def test_iframe():
     driver.quit()
 
 if __name__ == '__main__':
-    pytest.main()
+    pytest.main('-v -s test_iframe.py')
